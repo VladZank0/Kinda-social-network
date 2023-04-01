@@ -1,0 +1,11 @@
+
+.profile__banner{
+    height: 150px;
+    background-image: url('./../../img1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+

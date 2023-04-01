@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #242526;
+  height: 1500px;
+}
+body::-webkit-scrollbar {
+  width: 3px;               /* ширина scrollbar */
+  background-color: none;
+}
+body::-webkit-scrollbar-track {
+  background: none;        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(199, 199, 199);    /* цвет плашки */
+  border-radius: 5px;       /* закругления плашки */
+  border: none;  /* padding вокруг плашки */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 1270px;
+  margin: 0 auto;
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: "h h" "n m";
+  background: #242526;
+}
+.main{
+  grid-area: m;
+  background: #242526;
+  /* min-height: 700px; */
+  padding: 20px 20px;
+}

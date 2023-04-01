@@ -1,0 +1,15 @@
+.dialogItem{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(110, 110, 110);
+    list-style: none;
+    /* border-radius: 10px; */
+}
+.dialogItem:first-child{
+    border-top: 1px solid  rgb(110, 110, 110);
+}
+.dialogItem a{
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}

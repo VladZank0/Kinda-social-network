@@ -1,0 +1,25 @@
+.users{
+    width: 80%;
+    margin: 0 auto;
+}
+.title{
+    color: white;
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    /* justify-content: center; */
+    column-gap: 50px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.showMore{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.showMore:hover{
+    background-color: rgb(43, 149, 215);
+    cursor: pointer;
+}

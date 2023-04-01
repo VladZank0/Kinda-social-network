@@ -1,0 +1,43 @@
+.postsTitle{
+    margin-bottom: 25px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Work Sans';
+    color: white;
+}
+.postsInput{
+    width: 100%;
+    resize: none;
+    height: 85px;
+    width: 400px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    margin-bottom: 20px;
+}
+.postsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 50px;
+}
+.postsBtn{
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    transition: .3s;
+}
+.postsBtn:hover{
+    background-color: rgb(87, 146, 223);
+    transition: .3s;
+}
